@@ -7,7 +7,7 @@ module.exports = async (req, res) => {
   const logs = req.body && req.body.logs;
   if (!Array.isArray(logs) || logs.length < 2) return res.status(400).json({ error: 'Add at least two daily logs before requesting an insight.' });
   try {
-    const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent', {
+    const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'x-goog-api-key': process.env.GEMINI_API_KEY },
       body: JSON.stringify({
