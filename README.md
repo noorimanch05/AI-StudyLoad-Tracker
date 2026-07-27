@@ -36,7 +36,14 @@ You are a supportive academic wellbeing analyst for medical students. Analyze th
 
 ## Screenshots
 
-_Add dashboard and mobile screenshots here after deployment._
+   ![Daily check-in and history](Picture1.png)
+   *Logging a daily study session and viewing history*
+
+   ![AI Burnout Insight](Picture2.png)
+   *AI-generated burnout risk analysis with suggestions*
+
+   ![Weekly snapshot](Picture3.png)
+   *Weekly hours and stress trend charts*
 
 ## Run locally
 
