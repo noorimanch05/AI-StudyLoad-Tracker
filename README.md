@@ -1,6 +1,6 @@
 # StudyLoad Tracker
 
-**Live URL:** _Add your deployed Vercel URL here_
+**Live URL:** [https://ai-study-load-tracker.vercel.app](https://ai-study-load-tracker.vercel.app)
 
 StudyLoad Tracker is a private, local-first burnout early-warning tool for medical students. It turns daily study check-ins into a clear view of academic load, stress, and potential overload patterns before they become harder to manage.
 
@@ -32,7 +32,7 @@ You are a supportive academic wellbeing analyst for medical students. Analyze th
 - Plain HTML, CSS, and JavaScript — no build process or frontend framework.
 - Custom inline SVG charts — no chart library.
 - `localStorage` for on-device persistence.
-- Node.js Vercel serverless function using Gemini `gemini-2.5-flash`.
+- Node.js Vercel serverless function using Gemini `gemini-flash-latest`.
 
 ## Screenshots
 
